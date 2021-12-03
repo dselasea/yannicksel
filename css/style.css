@@ -13,8 +13,9 @@ body {
 
 #container {
     width: 90%;
-    margin: 0 auto;
+    margin: 4rem auto;
     background: white;
+    border-radius: 10px;
 }
 
 #container h1, h2, h3 {
@@ -75,5 +76,15 @@ footer {
     padding: 2rem 1rem;
     text-align: center;
     margin: 2rem 0;
+}
+
+@media (min-width: 600px){
+    body {
+        background: #FDCA40;
+    }
+
+    .info-content {
+    flex-direction: row;
+}
 }
 
