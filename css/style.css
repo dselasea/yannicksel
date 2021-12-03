@@ -7,14 +7,13 @@
 }
 
 body {
-    background: crimson;
+    background: cornflowerblue;
     font-family: 'M PLUS 1 Code', sans-serif;
 }
 
 #container {
     width: 90%;
     margin: 0 auto;
-    border: 2px solid red;
     background: white;
 }
 
@@ -63,8 +62,18 @@ ul li {
     padding: 1rem;
 }
 
+.info-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-content div {
+    flex-basis: 50%;
+}
+
 footer {
     padding: 2rem 1rem;
     text-align: center;
     margin: 2rem 0;
 }
+
