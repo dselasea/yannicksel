@@ -16,19 +16,55 @@ body {
     margin: 0 auto;
     border: 2px solid red;
     background: white;
-    padding: 2rem;
 }
 
 #container h1, h2, h3 {
     text-align: center;
 }
 
+#container #main {
+    /* background: rgb(231, 225, 225); */
+    padding: 0 2rem;
+}
+
+#container #main #title h1, #container #main #title p {
+    margin: 2rem 0;
+    text-align: center;
+}
+nav {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+}
+
 ul {
     list-style: none;
+}
+
+ul li {
+    padding: 2rem 0;
 }
 
 #image {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
     text-align: center;
+}
+
+#tribute-info h2 {
+    margin: 2rem 0;
+}
+
+.tribute-info .info-content div {
+    padding: 1rem;
+}
+
+footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    margin: 2rem 0;
 }
